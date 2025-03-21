@@ -1,0 +1,118 @@
+/* Estilo para o topo da página */
+.topo {
+    background-color: #2E7D32; /* Cor de fundo verde */
+    color: white; /* Cor do texto branco */
+    padding: 30px 20px; /* Espaçamento interno */
+    border-radius: 30px 30px 0 0; /* Bordas arredondadas no topo */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para o título */
+#titulo {
+    margin: 0; /* Remove a margem padrão */
+    font-size: 28px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+    text-align: center; /* Centraliza o conteúdo */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamento interno padrão */
+}
+
+/* Estilo para o container principal */
+.container {
+    width: 90%; /* Largura do container */
+    max-width: 500px; /* Largura máxima */
+    margin: 20px auto; /* Centraliza o container */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 30px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para as seções do quiz */
+#quiz, #perguntas, #resultado {
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* Estilo para títulos */
+h1, h2 {
+    margin-top: 0px; /* Remove margem superior */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo para botões */
+button {
+    background-color: #007B5E; /* Cor de fundo verde escuro */
+    color: white; /* Cor do texto branco */
+    border: none; /* Remove borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    margin-top: 20px; /* Espaçamento superior */
+    cursor: pointer; /* Cursor de ponteiro */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #00593b; /* Cor de fundo mais escura */
+}
+
+/* Estilo para a navegação (botões Anterior e Próximo) */
+.navegacao {
+    display: flex; /* Layout flexível */
+    justify-content: space-between; /* Espaço entre os botões */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+/* Classe para esconder elementos */
+.hidden {
+    display: none; /* Oculta o elemento */
+}
+
+/* Estilo para as opções de resposta */
+.opcao {
+    display: block; /* Cada opção em uma linha */
+    margin: 10px 0; /* Espaçamento entre opções */
+}
+
+/* Estilo para as labels das opções */
+#opcoes label {
+    display: block; /* Cada opção em uma linha */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo para as barras de porcentagem */
+.barra-container {
+    width: 100%; /* Largura total */
+    background-color: #e0e0e0; /* Cor de fundo cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin: 10px 0; /* Espaçamento */
+}
+
+.barra {
+    height: 20px; /* Altura da barra */
+    background-color: #007B5E; /* Cor de fundo verde */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: right; /* Alinha o texto à direita */
+    color: white; /* Cor do texto branco */
+    font-size: 14px; /* Tamanho da fonte */
+    line-height: 20px; /* Altura da linha */
+    padding-right: 5px; /* Espaçamento interno à direita */
+}
+
+/* Estilo para a descrição das linguagens */
+.descricao-linguagem {
+    margin-top: 10px; /* Espaçamento superior */
+    font-style: italic; /* Texto em itálico */
+    color: #555; /* Cor do texto cinza escuro */
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%; /* Reduzir o tamanho do logo */
+    height: auto;
+}

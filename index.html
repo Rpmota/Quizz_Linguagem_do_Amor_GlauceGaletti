@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Linguagem do Amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Logo Glauce.PNG" alt="Logo do Quiz" id="logo">
+        <div id="quiz">
+            <h1 id="titulo">Quiz Linguagem do Amor</h1>
+            <p id="descricao">Veja com qual Linguagem do Amor você mais se identifica</p>
+            <button id="btn-iniciar">Iniciar</button>
+        </div>
+
+        <div id="perguntas" class="hidden">
+            <h2 id="pergunta-titulo"></h2>
+            <form id="opcoes"></form>
+            <div class="navegacao">
+                <button id="btn-anterior" class="hidden">Anterior</button>
+                <span id="contador"></span>
+                <button id="btn-proximo">Próximo</button>
+            </div>
+        </div>
+
+        <div id="resultado" class="hidden">
+            <h2>Resultado:</h2>
+            <p id="mensagem-resultado"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
